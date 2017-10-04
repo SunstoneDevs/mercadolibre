@@ -1,5 +1,7 @@
 <?php
 
+namespace Dsc\MercadoLivre;
+
 class Meli {
 
 	/**
@@ -103,7 +105,8 @@ class Meli {
     
         $request = $this->execute(self::$OAUTH_URL, $opts);
 
-        if($request["httpCode"] == 200) {             
+        if($request["httpCode"] == 200) {   
+                  
             $this->access_token = $request["body"]->access_token;
 
             if($request["body"]->refresh_token)
