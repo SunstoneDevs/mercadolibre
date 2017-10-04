@@ -16,6 +16,5 @@
     },
     "autoload": {
         "classmap":["Meli/meli.php"]
-    },
-    "minimum-stability": "dev"
+    }
 }
