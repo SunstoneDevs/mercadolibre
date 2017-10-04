@@ -1,0 +1,21 @@
+{
+    "name": "micheldamasceno/mercadolibre",
+    "description": "Package mercadolibre",
+    "license": "MIT",
+    "type" :"libary",
+    "version" :"1.2",
+    "authors": [
+        {
+            "name": "Michel Damasceno",
+            "email": "michel-damasceno@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap":["Meli/meli.php"]
+    },
+    "minimum-stability": "dev"
+}
